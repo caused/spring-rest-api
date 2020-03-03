@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.h2.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
@@ -67,6 +67,6 @@ public class UsuarioService {
 	}
 
 	private String verificarValorNulo(String valorEnviado, String valorPadrao) {
-		return StringUtils.isNullOrEmpty(valorEnviado) ? valorPadrao : valorEnviado;
+		return StringUtils.isBlank(valorEnviado) ? valorPadrao : valorEnviado;
 	}
 }
