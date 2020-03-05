@@ -7,6 +7,7 @@ Nesse exercício foi utilizado as seguintes tecnologias:
 * Spring Data
 * H2
 
+Requisições abaixo foram feitas a partir de http://localhost:8080
 
 # API de Usuário
 
