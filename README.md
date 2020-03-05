@@ -2,8 +2,8 @@
 Projeto para teste de nivelamento do curso ministrado pela Mastertech
 
 Nesse exercício foi utilizado as seguintes tecnologias:
-* Java 1.8
-* Spring Boot
+* Java 8
+* Spring Boot (2.1.5.RELEASE)
 * Spring Data
 * H2
 
